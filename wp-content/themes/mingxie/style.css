@@ -1,0 +1,314 @@
+/*
+Theme Name: 	Ming Xie
+Theme URI: 		http://mingxiepiano.com
+Description: 	Ming Xie Theme by Nathan Nelson
+Version: 	  	1.0
+Author: 		  Nathan Nelson
+Author URI: 	http://nnelson.co.uk
+*/
+/* Small devices (tablets, 768px and up) */
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+#cssmenu, #cssmenu ul, #cssmenu li, #cssmenu a {
+  border: none;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  line-height: 1;
+  margin: 0;
+  padding: 0; }
+
+#cssmenu {
+  height: 37px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: 1px solid;
+  border-radius: 5px;
+  width: auto;
+  border-color: #080808; }
+
+#cssmenu, #cssmenu > ul > li > ul > li a:hover {
+  background: #3c3c3c;
+  background: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3c3c3c), color-stop(100%, #222222));
+  background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  background: -o-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  background: -ms-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  background: linear-gradient(to bottom, #3c3c3c 0%, #222222 100%); }
+
+#cssmenu > ul {
+  list-style: inside none;
+  padding: 0;
+  margin: 0; }
+
+#cssmenu > ul > li {
+  list-style: inside none;
+  padding: 0;
+  margin: 0;
+  float: left;
+  display: block;
+  position: relative; }
+
+#cssmenu > ul > li > a {
+  outline: none;
+  display: block;
+  position: relative;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 1px solid #080808;
+  color: #ffffff; }
+
+#cssmenu > ul > li > a:hover {
+  background: #080808;
+  color: #ffffff; }
+
+#cssmenu > ul > li:first-child > a {
+  border-radius: 5px 0 0 5px; }
+
+#cssmenu > ul > li > a:after {
+  content: '';
+  position: absolute;
+  border-right: 1px solid;
+  top: -1px;
+  bottom: -1px;
+  right: -2px;
+  z-index: 99;
+  border-color: #3c3c3c; }
+
+#cssmenu ul li.has-sub:hover > a:after {
+  top: 0;
+  bottom: 0; }
+
+#cssmenu > ul > li.has-sub > a:before {
+  content: '';
+  position: absolute;
+  top: 18px;
+  right: 6px;
+  border: 5px solid transparent;
+  border-top: 5px solid #ffffff; }
+
+#cssmenu > ul > li.has-sub:hover > a:before {
+  top: 19px; }
+
+#cssmenu ul li.has-sub:hover > a {
+  background: #3f3f3f;
+  border-color: #3f3f3f;
+  padding-bottom: 13px;
+  padding-top: 13px;
+  top: -1px;
+  z-index: 999; }
+
+#cssmenu ul li.has-sub:hover > ul, #cssmenu ul li.has-sub:hover > div {
+  display: block; }
+
+#cssmenu ul li.has-sub > a:hover {
+  background: #3f3f3f;
+  border-color: #3f3f3f; }
+
+#cssmenu ul li > ul, #cssmenu ul li > div {
+  display: none;
+  width: auto;
+  position: absolute;
+  top: 38px;
+  padding: 10px 0;
+  background: #3f3f3f;
+  border-radius: 0 0 5px 5px;
+  z-index: 999; }
+
+#cssmenu ul li > ul {
+  width: 200px; }
+
+#cssmenu ul li > ul li {
+  display: block;
+  list-style: inside none;
+  padding: 0;
+  margin: 0;
+  position: relative; }
+
+#cssmenu ul li > ul li a {
+  outline: none;
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 8px 20px;
+  font: 10pt Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5); }
+
+#cssmenu ul ul a:hover {
+  color: #ffffff; }
+
+#cssmenu > ul > li.has-sub > a:hover:before {
+  border-top: 5px solid #ffffff; }
+
+@media screen and (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block; } }
+/*----------  Pagination  ----------*/
+.wp-pagenavi {
+  padding: 50px 0;
+  text-align: center; }
+  .wp-pagenavi .pages {
+    display: none; }
+
+.wp-pagenavi a, .wp-pagenavi span {
+  background-color: #ee8099;
+  border: none;
+  padding: 10px 15px;
+  color: #fff; }
+
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+  background-color: #e42133; }
+
+body {
+  font-size: 16px;
+  line-height: 1.3; }
+  body h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #C1B380;
+    padding-bottom: 10px;
+    font-size: 2.5em; }
+
+/* IE 10 in Windows 8 Device Size Fix */
+@-webkit-viewport {
+  width: device-width; }
+@-moz-viewport {
+  width: device-width; }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+@viewport {
+  width: device-width; }
+body {
+  position: relative; }
+  body .row {
+    padding: 4% 0; }
+
+/*================================
+=            About            =
+================================*/
+.about p {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 25px;
+  font-size: 1.2em; }
+
+/*================================
+=            Gallery            =
+================================*/
+/*================================
+=             Shows             =
+================================*/
+.shows {
+  background: #383838; }
+  .shows ul {
+    width: 100%;
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    padding-top: 3%; }
+    .shows ul li {
+      list-style: none;
+      width: 33.3%;
+      float: left;
+      text-align: center;
+      color: white;
+      padding: 15px 0; }
+      .shows ul li .more {
+        width: 50%;
+        border: 1px solid #C1B380;
+        float: none;
+        color: white;
+        text-transform: uppercase;
+        margin-left: 25%;
+        padding: 10px; }
+        .shows ul li .more a {
+          color: white;
+          text-decoration: none; }
+
+/*================================
+=            Contact             =
+================================*/
+.contact {
+  background: #383838; }
+  .contact p {
+    width: 65%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 25px;
+    font-size: 1.2em; }
+
+/*================================
+=            Credit             =
+================================*/
+.credit {
+  padding: 30px 0;
+  background: white; }
+  .credit p {
+    text-align: center;
+    color: #383838; }
+
+/*================================
+=            Header            =
+================================*/
+header {
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  header .logo {
+    padding-top: 15%;
+    text-align: center; }
+  header .title {
+    padding: 5% 0; }
+    header .title .name {
+      text-align: center; }
+      header .title .name h1 {
+        font-size: 4em;
+        padding: 0;
+        margin: 0;
+        color: #C1B380;
+        border-bottom: 0;
+        width: 100%; }
+      header .title .name h2 {
+        font-size: 2.1em;
+        padding: 0;
+        margin: 0;
+        color: white;
+        padding-top: 10px; }
+    header .title .intro {
+      font-size: 1.8em;
+      padding-right: 30px;
+      color: white; }
+
+/*================================
+=        More Info Button        =
+================================*/
+.more-info {
+  width: 200px !important;
+  border: 1px solid #C1B380;
+  background: none;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-bottom: 0 !important; }
+  .more-info a {
+    color: black;
+    text-transform: uppercase; }
+    .more-info a:hover {
+      text-decoration: none; }
+  .more-info:hover {
+    background: #C1B380; }

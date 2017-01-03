@@ -1,0 +1,23 @@
+/*
+Theme Name: 	Ming Xie
+Theme URI: 		http://mingxiepiano.com
+Description: 	Ming Xie Theme by Nathan Nelson
+Version: 	  	1.0
+Author: 		  Nathan Nelson
+Author URI: 	http://nnelson.co.uk
+*/
+
+// Use Compass
+@import "compass";
+
+// // Set variables and reusable mixins
+@import "config";
+@import "mixins";
+@import "navigation";
+@import "type";
+@import "other";
+@import "layout";
+@import "components";
+
+// For anything quick and dirty that needs thrown in
+@import "shame";

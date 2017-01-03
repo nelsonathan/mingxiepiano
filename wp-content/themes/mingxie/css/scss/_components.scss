@@ -1,0 +1,62 @@
+/*================================
+=            Header            =
+================================*/
+
+header {
+  min-height:600px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  .logo {
+    padding-top:15%;
+    text-align:center;
+  }
+  .title {
+    padding:5% 0;
+    .name {
+      text-align:center;
+      h1 {
+        font-size:4em;
+        padding:0;
+        margin:0;
+        color:$gold;
+        border-bottom:0;
+        width:100%;
+      }
+      h2 {
+        font-size:2.1em;
+        padding:0;
+        margin:0;
+        color:white;
+        padding-top:10px;
+      }
+    }
+    .intro {
+      font-size: 1.8em;
+      padding-right: 30px;
+      color:white;
+    }
+  }
+}
+
+/*================================
+=        More Info Button        =
+================================*/
+
+.more-info {
+  width:200px!important;
+  border:1px solid $gold;
+  background:none;
+  text-transform:uppercase;
+  padding:10px;
+  margin-bottom:0!important;
+  a {
+    color:black;
+    text-transform:uppercase;
+    &:hover {
+      text-decoration:none;
+    }
+  }
+  &:hover {
+    background:$gold;
+  }
+}
