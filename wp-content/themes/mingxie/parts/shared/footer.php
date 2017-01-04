@@ -5,11 +5,11 @@
 
 		    <h1>Contact</h1>
 
-				<p><?php the_field('contact_intro', $post->ID); ?></p>
+				<p><?php the_field('contact_intro', 7); ?></p>
 
-				<p>Phone: <?php the_field('phone_number', $post->ID); ?></p>
+				<p>Phone: <?php the_field('phone_number', 7); ?></p>
 
-				<p>Email: <?php the_field('email_address', $post->ID); ?></p>
+				<p>Email: <?php the_field('email_address', 7); ?></p>
 
 		  </div>
 		</div>

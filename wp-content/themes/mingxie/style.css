@@ -271,10 +271,13 @@ header {
   background-repeat: no-repeat;
   background-size: cover; }
   header .logo {
-    padding-top: 15%;
-    text-align: center; }
+    padding-top: 5%;
+    text-align: center;
+    width: 100%; }
+    header .logo img {
+      width: 20%; }
   header .title {
-    padding: 5% 0; }
+    padding: 25px; }
     header .title .name {
       text-align: center; }
       header .title .name h1 {

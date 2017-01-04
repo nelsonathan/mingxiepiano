@@ -7,11 +7,15 @@ header {
   background-repeat:no-repeat;
   background-size:cover;
   .logo {
-    padding-top:15%;
+    padding-top:5%;
     text-align:center;
+    width:100%;
+    img {
+      width:20%;
+    }
   }
   .title {
-    padding:5% 0;
+    padding:25px;
     .name {
       text-align:center;
       h1 {
